@@ -4,6 +4,8 @@ Writes the two-line entry to /output/entry.txt: line 1 explains a
 washing machine to a 10-year-old with one analogy, line 2 says what
 the analogy maps and what it leaves out. Deterministic: no input,
 no randomness, no network, the same bytes on every run.
+The bathtub was chosen because a child already knows a tub holds
+soapy water, so the only new idea to learn is the spinning.
 """
 
 import os
@@ -18,6 +20,7 @@ LINE_2 = (
 )
 
 # One newline between the two lines, none at the end: the text is the entry.
+# Rule: exactly one "\n" joins LINE_1 and LINE_2, and no trailing newline.
 TEXT = LINE_1 + "\n" + LINE_2
 
 
