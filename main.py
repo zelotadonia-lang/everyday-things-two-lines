@@ -7,6 +7,9 @@ no randomness, no network, the same bytes on every run.
 The pond was chosen because a child already knows still water
 shows a face back, so the only new idea to learn is that the
 mirror keeps that picture flat and hard instead of rippling.
+The 1-400 character gate keeps the entry short enough to read at a
+glance, so the two lines stay a quick explanation rather than a
+paragraph.
 """
 
 import os
