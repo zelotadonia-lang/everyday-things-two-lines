@@ -1,22 +1,24 @@
-"""Everyday Things, Two Lines, Longer Run.
+"""Everyday Things, Two Lines, Longer Run (rev2).
 
 Writes the two-line entry to /output/entry.txt: line 1 explains a
-washing machine to a 10-year-old with one analogy, line 2 says what
-the analogy maps and what it leaves out. Deterministic: no input,
+mirror to a 10-year-old with one analogy, line 2 says what the
+analogy maps and what it leaves out. Deterministic: no input,
 no randomness, no network, the same bytes on every run.
-The bathtub was chosen because a child already knows a tub holds
-soapy water, so the only new idea to learn is the spinning.
+The pond was chosen because a child already knows still water
+shows a face back, so the only new idea to learn is that the
+mirror keeps that picture flat and hard instead of rippling.
 """
 
 import os
 
 LINE_1 = (
-    "A washing machine is a bathtub that learned to spin, "
-    "tossing your clothes around in soapy water until the dirt lets go."
+    "A mirror is a still pond hung on the wall, showing your face "
+    "back to you without a single ripple."
 )
 LINE_2 = (
-    "It maps the spinning and the soap, but a bathtub never drains "
-    "itself and clothes cannot climb out when they are clean."
+    "It maps the clear reflection and the looking back, but a pond "
+    "ripples when you touch it and a mirror stays flat and hard "
+    "under your hand."
 )
 
 # One newline between the two lines, none at the end: the text is the entry.
